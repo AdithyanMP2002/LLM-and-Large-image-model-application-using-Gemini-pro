@@ -1,26 +1,23 @@
-## Building End to End LLM and Large image model application using Gemini pro 
-
-
 To successfully execute your project in the correct order using the files you’ve provided, follow these steps:
 
-Step 1: Prepare Your Environment
+### Step 1: **Prepare Your Environment**
 Before running any files, ensure that you have the required libraries installed and that your environment is correctly configured.
 
-
-[ pip install streamlit google-generativeai python-dotenv pillow ]
-
+```bash
+pip install streamlit google-generativeai python-dotenv pillow
+```
 
 Make sure your `.env` file is in place with your `GOOGLE_API_KEY`:
 
+```plaintext
+GOOGLE_API_KEY=your_google_api_key_here
+```
 
-[ GOOGLE_API_KEY=your_google_api_key_here ]
+### Step 2: **Execute Files in Order**
 
-
-Step 2: Execute Files in Order
-
-1. Run `app.py`
-   - Purpose: This sets up a basic Q&A chatbot using text input.
-   - Command:
+#### 1. **Run `app.py`**
+   - **Purpose**: This sets up a basic Q&A chatbot using text input.
+   - **Command**:
      ```bash
      streamlit run app.py
      ```
